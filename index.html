@@ -45,26 +45,18 @@
             <img class="pokemon-card-image" src="{{image}}" />
             <h2 class="pokemon-card-title">{{name}}</h5>
             <p class="pokemon-card-subtitle">{{types}}</p>
-            <a class="pokemon-card-link"></a>
+            <a class="pokemon-card-link" id="{{name}}" data-name="{{name}}"></a>
           </div>
         </template>
 
         <div id="infoContainer">
-
-          <div class="info">
-            <img class="pokemon-card-image" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png" />
-            <h2 class="pokemon-card-title">"squirtle"</h5>
-            <p class="pokemon-card-subtitle">grass</p>
-          </div>
-
-
         </div>
 
         <template id="infoTemplate">
           <div class="info">
-            <img class="pokemon-card-image" />
-            <h2 class="pokemon-card-title"></h5>
-            <p class="pokemon-card-subtitle"></p>
+            <img class="pokemon-card-image" src="{{image}}" />
+            <h2 class="pokemon-card-title">{{name}}</h5>
+            <p class="pokemon-card-subtitle">{{abilities}}</p>
           </div>
         </template>
       </div>
